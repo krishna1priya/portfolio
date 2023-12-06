@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Krishna Priya</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left">Krishna Priya</div>
+                <div class = "right">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class = "firstSection" id="home">
+                <div class="leftSection">
+                    Hi! I'm <span class="purple">Krishna Priya</span>
+                    <div>I am a passionate</div>
+                    <span id="element"></span>
+                    <br>
+                    <a href="#contact" class="btn">Contact Me!</a>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/krishna-priya-a16104267/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class = "rightSection">
+                    <img src="homepic.png">
+                </div>
+            </section>
+            <section class="secondSection" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="about_pic.jpeg">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="subtitle">About Me</h1>
+                            <p>I'm a passionate software engineer with a keen interest in crafting innovative solutions to complex problems. 
+                                With a deep love for coding, I thrive on turning ideas into functional, user-friendly applications. 
+                                My journey in the world of technology has equipped me with a versatile skill set, allowing me to tackle challenges from algorithm optimization 
+                                to intuitive user interfaces. My commitment to quality and a relentless pursuit of excellence drive me to deliver software that not only meets expectations but also exceeds them."</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skill-section" id="skills">
+                <h1 class="subtitle">Skills</h1>
+                <div class="skills-container">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('programming')">Programming</p>
+                        <p class="tab-links" onclick="opentab('libraries')">Libraries & Tools</p>
+                        <p class="tab-links" onclick="opentab('ai&ml')">AI & Machine Learning</p>
+                        <p class="tab-links" onclick="opentab('databases')">Databases & Computation</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="programming">
+                        <div class="charts">
+                            <div class="skill-chart">
+                                <img src="c++logo.png" class="skill-logo">
+                                <div class="skill-name">C++</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="pythonlogo.png" class="skill-logo">
+                                <div class="skill-name">Python</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="sqllogo.png" class="skill-logo">
+                                <div class="skill-name">SQL</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="matlablogo.png" class="skill-logo">
+                                <div class="skill-name">MATLAB</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="htmlcsslogo.png" class="skill-logo">
+                                <div class="skill-name">HTML/CSS</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="julialogo.png" class="skill-logo">
+                                <div class="skill-name">Julia</div>
+                            </div>
+                        </div>
+                        
+                    </div>                 
+
+                    <div class="tab-contents" id="libraries">
+                        <div class="charts">
+                            <div class="skill-chart">
+                                <img src="githublogo.png" class="skill-logo">
+                                <div class="skill-name">Github</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="fastapi.svg" class="skill-logo">
+                                <div class="skill-name">FastAPI</div>
+                            </div>
+                            
+                            <div class="skill-chart">
+                                <img src="docker.png" class="skill-logo">
+                                <div class="skill-name">Docker</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="reactlogo.png" class="skill-logo">
+                                <div class="skill-name">React</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="postman.png" class="skill-logo">
+                                <div class="skill-name">Postman</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="jira1.png" class="skill-logo">
+                                <div class="skill-name">Jira</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="ai&ml">
+                        <div class="charts">
+                            <div class="skill-chart">
+                                <img class="skill-logo" src="tensorflow.png">
+                                <div class="skill-name">TensorFlow</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="https://miro.medium.com/v2/resize:fit:1190/format:webp/1*ax2uBqfp963n4PQVqmGplQ.png" class="skill-logo">
+                                <div class="skill-name">Spacy</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="scilearn.png" class="skill-logo">
+                                <div class="skill-name">Scikit-learn</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="opencv.png" class="skill-logo">
+                                <div class="skill-name">OpenCV</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="numpy.svg" class="skill-logo">
+                                <div class="skill-name">Numpy</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pandas_mark.svg/1200px-Pandas_mark.svg.png" class="skill-logo">
+                                <div class="skill-name">Pandas</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="databases">
+                        <div class="charts">
+                            <div class="skill-chart">
+                                <img class="skill-logo" src="postgreslogo.png">
+                                <div class="skill-name">PostgreSQL</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="Azurelogo.png" class="skill-logo">
+                                <div class="skill-name">Azure</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="mysql.png" class="skill-logo">
+                                <div class="skill-name">MySQL</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="calculusicon.png" class="skill-logo">
+                                <div class="skill-name">Calculus</div>
+                            </div>
+                            <div class="skill-chart">
+                                <img src="statsicon.png" class="skill-logo">
+                                <div class="skill-name">Statistics</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="timeline-section" id="experience">
+                <h1 class="subtitle">My Journey</h1>
+                <div class="tab-titles">
+                    <p class="tab-links active-timelink" onclick="opentimeline('academic')"><i class="fa-solid fa-graduation-cap"></i> Academic</p>
+                    <p class="tab-links" onclick="opentimeline('professional')"><i class="fa-solid fa-briefcase"></i> Professional</p>
+                </div>
+                <div class="timeline-container tab-contents active-timetab" id="academic">
+                    <div class="time-container left-container">
+                        <span class="time-rounder"></span>
+                        <div class="text-box">
+                            <h2>Indiana University </h2>
+                            <p><i class="fa-solid fa-location-pin"></i> Bloomington</p>
+                            <p>MS, Computer Engineering</p>
+                            <small><i class="fa-solid fa-calendar-days"></i> 2020-2022</small>
+                        </div>
+                    </div>
+                    <div class="time-container right-container">
+                        <span class="time-rounder"></span>
+                        <div class="text-box ">
+                            <h2>Indian Institute of Technology</h2>
+                            <p><i class="fa-solid fa-location-pin"></i> Kanpur</p>
+                            <p>MTech, Electronics</p>
+                            <small><i class="fa-solid fa-calendar-days"></i> 2020-2022</small>
+                        </div>
+                    </div>
+                    <div class="time-container left-container">
+                        <span class="time-rounder"></span>
+                        <div class="text-box">
+                            <h2>Pune University</h2>
+                            <p><i class="fa-solid fa-location-pin"></i> Pune</p>
+                            <p>BTech, Electronics</p>
+                            <small><i class="fa-solid fa-calendar-days"></i> 2014-2018</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-container tab-contents" id="professional">
+                    <div class="time-container left-container">
+                        <span class="time-rounder"></span>
+                        <div class="text-box">
+                            <h2>Software Development Engineer</h2>
+                            <p>Cogoport Private Limited</p>
+                            <p><i class="fa-solid fa-location-pin"></i> Mumbai</p>
+                            <small><i class="fa-solid fa-calendar-days"></i> 2022-2023</small>
+                        </div>
+                    </div>
+                    <div class="time-container right-container">
+                        <span class="time-rounder"></span>
+                        <div class="text-box">
+                            <h2>Software Engineer</h2>
+                            <p>L&T Infotech</p>
+                            <p><i class="fa-solid fa-location-pin"></i> Bangalore</p>
+                            <small><i class="fa-solid fa-calendar-days"></i> 2018-2019</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="project-section" id="projects">
+                    <div class="project-container">
+                        <h1 class="subtitle">Projects</h1>
+                        <div class="project-indicator">
+                            <span class="indicator-btn indicator-btn-active"></span>
+                            <span class="indicator-btn"></span>
+                        </div>
+                        <div class="project">
+                            <div class="slide-row" id="slide">
+                                <div class="slide-col">
+                                    <div class="project-text">
+                                        <h3>Time Screening</h3>
+                                        <p class="description">Designed an automation system over a server-client model in Python using Raspberry Pi boards.
+                                            Analyzed and compared the performance of IoT protocols MQTT and CoAP for data transfer of sensor-acquired data to
+                                            determine the optimal protocol for time synchronization in low-power sensor modules.
+                                        </p>
+                                        <p>Tech Stack: Python, Raspberry Pi, VNC Server, Cloud, Linux</p>
+                                        <a href="https://github.com/krishna1priya/Time-Synchronization-for-IoT-application"><button class="btn">View More</button></a>
+                                    </div>
+                                </div>
+                                <div class="slide-col">
+                                    <div class="project-text">
+                                        <h3>Time Screening </h3>
+                                        <p class="description">Designed an automation system over a server-client model in Python using Raspberry Pi boards.
+                                            Analyzed and compared the performance of IoT protocols MQTT and CoAP for data transfer of sensor-acquired data to
+                                            determine the optimal protocol for time synchronization in low-power sensor modules.
+                                        </p>
+                                        <p>Tech Stack: Python, Raspberry Pi, VNC Server, Cloud, Linux</p>
+                                        <a href="https://github.com/krishna1priya/Time-Synchronization-for-IoT-application"><button class="btn">View More</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+            <section class="contact-section" id="contact">
+                <div class="contact-container">
+                    <div class="contact-row">
+                        <div class="contact-left">
+                            <h1 class="contact-subtitle">Contact Me!</h1>
+                            <p><i class="fa-regular fa-envelope"></i>krishnapriya051@gmail.com</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/krishna-priya-a16104267/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <a href="files/cv_new1.pdf" download class="btn">Download my CV here</a>
+                        </div>
+                        <div class="contact-right">
+                            <form onsubmit="sendEmail(); reset(); return false;">
+                                <input type="text" id="name" name="Name" placeholder="Your name..." required>
+                                <input type="email" id="email" name = "email" placeholder="Your email..." required>
+                                <textarea name="Message" id="message" rows="6" placeholder="Your message here...."></textarea>
+                                <button type="submit" class="btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <span id="element"></span>
+
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+            
+            var typed = new Typed('#element', {
+            strings: ['Software Engineer...','Machine Learning Engineer...','AI Enthusiast...'],
+            typeSpeed: 50,
+            });
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+            function opentimeline(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-timelink");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-timetab");
+                }
+                event.currentTarget.classList.add("active-timelink");
+                document.getElementById(tabname).classList.add("active-timetab");
+            }
+            
+            function sendEmail(){
+                (function(){
+                    emailjs.init("PwewJ_e9sOjJShpQb");
+                })();
+                var serviceID = "service_iwcjqqj";
+                var templateID = "template_uuw6qpk";
+                var params = {
+                    sendername: document.querySelector("#name").value,
+                    senderemail: document.querySelector("#email").value,
+                    message: document.querySelector("#message").value,
+                };
+                emailjs.send(serviceID,templateID,params).then(
+                    res=>{
+                        alert('Thank you! Your message has been sent.')
+                }).catch();
+            }
+            let currentCard = 1;
+
+            function showCard(cardId) {
+                const cardWrapper = document.querySelector('.card');
+                const cardContent = document.getElementById(cardId);
+
+                if (cardContent) {
+                    const cardRect = cardContent.getBoundingClientRect();
+                    const wrapperRect = cardWrapper.getBoundingClientRect();
+
+                    const xOffset = wrapperRect.left - cardRect.left;
+                    const newTransform = `translateX(${xOffset}px)`;
+
+                    cardWrapper.style.transition = 'transform 0.5s ease-in-out';
+                    cardWrapper.style.transform = newTransform;
+
+                    // Set a timeout to remove the transition after the animation completes
+                    setTimeout(() => {
+                        cardWrapper.style.transition = '';
+                    }, 500);
+                }
+            }
+
+            function prevCard() {
+                if (currentCard > 1) {
+                    currentCard--;
+                    showCard(`card-content-${currentCard}`);
+                }
+                console.log("%%%%",currentCard);
+            }
+
+            function nextCard() {
+                if (currentCard < 2) {
+                    currentCard++;
+                    showCard(`card-content-${currentCard}`);
+                }
+            }
+
+            var project_btn = document.getElementsByClassName("indicator-btn");
+            var slide = document.getElementById("slide");
+
+            project_btn[0].onclick = function(){
+                slide.style.transform = "translateX(0px)";
+                for(i=0;i<2;i++){
+                    project_btn[i].classList.remove("indicator-btn-active");
+                }
+                this.classList.add("indicator-btn-active");
+            }
+            project_btn[1].onclick = function(){
+                slide.style.transform = "translateX(-800px)";
+                for(i=0;i<2;i++){
+                    project_btn[i].classList.remove("indicator-btn-active");
+                }
+                this.classList.add("indicator-btn-active");
+            }
+            
+            
+
+        </script>
+        
+    </body>
+</html>
